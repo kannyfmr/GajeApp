@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/bg">
 
     <ImageView
         android:id="@+id/logo"
@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/TheRoom" />
+        app:srcCompat="@drawable/TheRoomWhite" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/email"
@@ -71,6 +71,8 @@
 
     <Button
         android:id="@+id/login"
+        android:textColor="@color/text_btn"
+        android:textSize="20sp"
         android:background="@drawable/button_bg"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
